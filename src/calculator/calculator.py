@@ -20,6 +20,20 @@ def magicSquares(n):
     """Calculates the magic squares number"""
     return (n * (n**2 + 1)) / 2
 
+def cubeNums(n):
+    """Calculates the cube"""
+    return n ** 3
+
+def factorialNums(n):
+    """Calculates the factorial"""
+    result = 1
+    for i in range(1, n + 1):
+        result *= i
+    return result
+
+def pentagonalNums(n):
+    """Calculates the pentagonal number"""
+    return n * (3 * n - 1) // 2
 
 def run_calculator(input_formula, input_num):
     """Calls and returns results for the specified formulas"""
